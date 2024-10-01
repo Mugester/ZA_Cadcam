@@ -1,0 +1,52 @@
+.ft-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ft-gem {
+    margin-left: 7.5px;
+    transition: transform 0.3s ease;
+}
+
+.ft-gem:hover {
+    animation: rotateAnimation 0.3s ease forwards;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ft-links li a:hover {
+    text-decoration: underline;
+}
+
+.md\:items-start {
+    margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+footer .text-center {
+    color: #c3910b;
+    font-size: 14px;
+    border-top: 1px solid #4a4a4a;
+    padding-top: 15px;
+}

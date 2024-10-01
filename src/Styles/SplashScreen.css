@@ -1,0 +1,36 @@
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #003356, #003346);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.splash-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.splash-text {
+  font-size: 31px;
+  color: #ffffff;
+  margin-bottom: 19px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+
+.diamond-icon {
+  font-size: 199px;
+  color: #c3910b;
+  position: relative;
+  opacity: 0;
+}

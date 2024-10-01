@@ -1,0 +1,16 @@
+.hero-section {
+  background-position: center;
+  background-size: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-hover {
+  background-color: #c3990b;
+  color: #003366;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-color: #ffd700;
+  color: #003366;
+}
